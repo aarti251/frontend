@@ -34,7 +34,7 @@ try {
    // Check the status code for success (HTTP 200 or similar)
    if (response.status === 201) {
     alert('Registration successful');
-    console.log(response.data);
+    //console.log(response.data);
     setAuthUser(response.data);
     //localStorage.setItem("user", JSON.stringify(response.data.result[0]));
     localStorage.setItem("user", JSON.stringify(response.data));

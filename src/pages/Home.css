@@ -1,0 +1,82 @@
+/* src/HomePage.css */
+
+/* General Styles */
+
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.home-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.home-header p {
+  font-size: 18px;
+}
+
+.content {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.content p {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.cta {
+  background-color: #007bff;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta h2 {
+  font-size: 36px;
+  color: white;
+}
+
+.cta-button {
+  font-size: 18px;
+  padding: 15px 30px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.home-footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #999;
+}
